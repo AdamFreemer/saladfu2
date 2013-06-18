@@ -1,0 +1,47 @@
+// Place all the styles related to the salad controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+  background-color: black;
+  background:url("http://www.saladfoo.com/fu.jpg");
+  background-size: 140%;
+  background-repeat:no-repeat;
+}
+
+h1 {
+  background-color: red;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  font-size: 42px;
+  font-family: Arial;
+  text-transform: uppercase;
+  color: black;
+  opacity: 0.6;
+  margin-top: 100px;
+
+}
+
+#main_list {
+  margin: 0 auto;
+
+  width: 80%;
+  padding: 20px;
+  opacity: 0.6;
+  background-color: black;
+  z-index: 1;
+  font-family: Verdana;
+  color: white;
+  height: 500px;
+  overflow: auto;
+
+}
+
+#main_list li {
+  opacity: 1;
+  z-index: 2;
+  color: white;
+}

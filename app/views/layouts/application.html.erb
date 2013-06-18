@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saladfu2</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+<%= form_tag 'search', method: :get do %>
+<%= label_tag :q, "Search" %>
+<%= search_field_tag :q, "", placeholder: 'Search' %>
+<%= submit_tag "Search" %>
+
+<% end %>
+<%= yield %>
+
+</body>
+</html>

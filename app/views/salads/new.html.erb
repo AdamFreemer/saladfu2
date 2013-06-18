@@ -1,0 +1,37 @@
+
+    <% if @salad.errors.any? %>
+
+
+        The following errors prevented you from saving your salad:
+        <ul>
+          <% @salad.errors.full_messages.each do |error| %>
+              <li>
+                <%= error %>
+              </li>
+          <% end %>
+        </ul>
+    <% end %>
+
+    <H1>Enter a new salad</H1>
+
+    <ul>
+      <%= form_for @salad do |f| %>
+          <li>
+               <%= f.label :salad_name %>
+               <%= f.text_field :salad_name %>
+          </li>
+          <li>
+            <%= f.label :description %>
+            <%= f.text_field :description %>
+          </li>
+          <li>
+            <%= f.label :lettuce_type %>
+            <%= f.text_field :lettuce_type %>
+          </li>
+
+
+
+            <h2><%= f.submit %> | <%= link_to 'Cancel', root_path %></h2>
+
+         <% end %>
+    </ul>

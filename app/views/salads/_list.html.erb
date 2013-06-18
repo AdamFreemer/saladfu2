@@ -1,0 +1,17 @@
+
+<ol>
+  <% @salads.each do |salad| %>
+      <li>
+        <p><b><%= salad.salad_name %></b> | Votes: <%= salad.votes %><br>
+          <em>Base: <%= salad.lettuce_type %></em><br>
+          <em><%= salad.description %></em>
+
+
+
+           </p>
+      </li>
+  <% end %>
+</ol>
+
+<!-- 'number_field' for upvoting or downvoting
+-->

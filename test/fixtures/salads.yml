@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  salad_name: MyString
+  description: MyString
+  votes: 1
+  lettuce_type: MyString
+
+two:
+  salad_name: MyString
+  description: MyString
+  votes: 1
+  lettuce_type: MyString
