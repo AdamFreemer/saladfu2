@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9185323-09ca-4287-a52b-392b9450d3c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/salad.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/salad.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/salad.rb" afterPath="$PROJECT_DIR$/app/models/salad.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/saladfu2.iml" afterPath="$PROJECT_DIR$/.idea/saladfu2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/salads_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/salads_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="saladfu2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,19 +21,21 @@
     <file path="/salad_controller.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371393318692" ignored="false" />
     <file path="/20130613034525_create_salads.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371272479171" ignored="false" />
     <file path="/seeds.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371273665479" ignored="false" />
-    <file path="/salad.css.scss" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371531588438" ignored="false" />
-    <file path="/application.html.erb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371520584218" ignored="false" />
+    <file path="/salad.css.scss" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371601361395" ignored="false" />
+    <file path="/application.html.erb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371603867191" ignored="false" />
     <file path="/search.html.erb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371351870116" ignored="false" />
     <file path="/salad.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371525037263" ignored="false" />
     <file path="/new.html.erb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371532026653" ignored="false" />
     <file path="/_list.html.erb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371397953246" ignored="false" />
     <file path="/show.html.erb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371525626855" ignored="false" />
     <file path="/temp.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371394549026" ignored="false" />
-    <file path="/salads_controller.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371538769635" ignored="false" />
+    <file path="/salads_controller.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371601329137" ignored="false" />
     <file path="/20130616152339_create_toppings.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371396292750" ignored="false" />
     <file path="/edit.html.erb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371532942963" ignored="false" />
-    <file path="/Dummy.txt" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371573861043" ignored="false" />
-    <file path="/Gemfile" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371573881811" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371601124390" ignored="false" />
+    <file path="/Gemfile" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371583004346" ignored="false" />
+    <file path="/20130619003445_devise_create_users.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371602317276" ignored="false" />
+    <file path="/user.rb" changelist="a9185323-09ca-4287-a52b-392b9450d3c1" time="1371602436337" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +63,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/salads/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="24" selection-start="830" selection-end="830" vertical-scroll-proportion="-23.125">
+            <state line="37" column="0" selection-start="830" selection-end="830" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -61,16 +72,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="15" selection-start="193" selection-end="193" vertical-scroll-proportion="0.111228816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="salad.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/salad.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+            <state line="37" column="35" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.58677685">
               <folding />
             </state>
           </provider>
@@ -79,7 +81,25 @@
       <file leaf-file-name="salad.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/salad.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="58" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+            <state line="22" column="42" selection-start="523" selection-end="523" vertical-scroll-proportion="-132.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="74" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="19" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,43 +108,7 @@
       <file leaf-file-name="salads_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/salads_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="79" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/salads/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/salads/search.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="58" selection-end="62" vertical-scroll-proportion="-1.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/salads/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="221" selection-end="272" vertical-scroll-proportion="0.0">
+            <state line="6" column="22" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,11 +117,35 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/salads/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="47" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1371525636000" expanded="true" signature="74:106" placeholder="..." />
-                <marker date="1371525636000" expanded="true" signature="110:199" placeholder="..." />
-              </folding>
+            <state line="14" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="109" selection-start="661" selection-end="661" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/salads/search.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="58" selection-end="62" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/salads/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="221" selection-end="272" vertical-scroll-proportion="-8.125">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,30 +168,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/salad_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/salad/index.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130616152339_create_toppings.rb" />
         <option value="$PROJECT_DIR$/app/views/salads/_list.html.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/salads/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/salad.rb" />
         <option value="$PROJECT_DIR$/app/views/salads/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/salad.css.scss" />
         <option value="$PROJECT_DIR$/app/views/salads/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/salads_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/salads/new.html.erb" />
         <option value="dbtable:/c21cfc98/efb94a12-012f-43a0-93d4-bab7be84c7f8/..salads" />
+        <option value="dbtable:/d489acc0/efb94a12-012f-43a0-93d4-bab7be84c7f8/..salads" />
+        <option value="$PROJECT_DIR$/app/controllers/salads_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/salad.css.scss" />
+        <option value="$PROJECT_DIR$/db/migrate/20130619003445_devise_create_users.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
     <option name="y" value="22" />
-    <option name="width" value="1605" />
-    <option name="height" value="1092" />
+    <option name="width" value="1295" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -379,24 +386,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saladfu2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saladfu2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -451,14 +440,14 @@
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: saladfu2">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -736,18 +725,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="22" width="1605" height="1092" extended-state="0" />
+    <frame x="0" y="22" width="1295" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25600505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25586677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968395" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20606826" sideWeight="0.68844223" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24449685" sideWeight="0.6709347" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3115578" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -819,66 +808,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/salads_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/salads/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/salads/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1371525636000" expanded="true" signature="74:106" placeholder="..." />
-            <marker date="1371525636000" expanded="true" signature="110:199" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/salad.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="58" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/salads/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="221" selection-end="272" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -890,47 +827,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/salads_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="79" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/salad.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/salads/search.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="58" selection-end="62" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/c21cfc98/efb94a12-012f-43a0-93d4-bab7be84c7f8/..salads">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="58" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/salads/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="24" selection-start="830" selection-end="830" vertical-scroll-proportion="-23.125">
+        <state line="37" column="0" selection-start="830" selection-end="830" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d489acc0/efb94a12-012f-43a0-93d4-bab7be84c7f8/..salads">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/salads/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="221" selection-end="272" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/salads/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/salads_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/salad.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="42" selection-start="523" selection-end="523" vertical-scroll-proportion="-132.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130619003445_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="131" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="74" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="109" selection-start="661" selection-end="661" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="15" selection-start="193" selection-end="193" vertical-scroll-proportion="0.111228816">
+        <state line="37" column="35" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.58677685">
           <folding />
         </state>
       </provider>
