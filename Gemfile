@@ -53,3 +53,7 @@ gem 'devise', git: "https://github.com/plataformatec/devise.git", branch: "rails
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Add Foundation Here
+gem 'zurb-foundation', '~> 4.0.0'
+

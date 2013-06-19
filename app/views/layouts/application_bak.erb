@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saladfu2</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+<%= form_tag 'search', method: :get do %>
+    <%= label_tag :q, "Search" %>
+    <%= search_field_tag :q, "", placeholder: 'Search' %>
+    <%= submit_tag "Search" %>
+
+<% end %>
+
+
+<% if user_signed_in? %>
+    <p>You are currently logged in as <%= current_user.email %>. | <%= link_to "Go to salads", salads_path %> | <%= link_to "Logout", destroy_user_session_path, method: :delete %></p>
+<% else %>
+    <%= link_to "Sign Up!", new_user_registration_path %> | <%= link_to "Sign In!", new_user_session_path %>
+<% end %>
+
+
+<%= yield %>
+
+</body>
+</html>
