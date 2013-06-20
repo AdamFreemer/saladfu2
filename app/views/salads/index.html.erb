@@ -11,15 +11,24 @@
 <body>
 <% content_for :title, "Salad Fu :: Home" %>
 
-<h1>Welcome To Salad Fu</h1>
 
+<div class="row">
+  <div class="large-2 columns"></div>
+  <div class="large-8 columns"><h1>Welcome To Salad Fu</h1></div>
+  <div class="large-2 columns"></div>
+</div>
+
+
+
+<ul>
 <%= form_tag 'search', method: :get do %>
-<%= label_tag :q, "Search" %>
-<%= search_field_tag :q, "", placeholder: 'Search' %>
-<%= submit_tag "Search" %>
+<li><%= label_tag :q, "Search" %></li>
+  <li><%= search_field_tag :q, "", placeholder: 'Search' %> </li>
+  <li><%= submit_tag "Search" %>  </li>
 
+
+</ul>
 <% end %>
-
 <h2><%= link_to 'New salad', new_salad_path %></h2>
     <div id="main_list">
        <%= render 'list' %>

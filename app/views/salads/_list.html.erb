@@ -3,23 +3,20 @@
   <% @salads.each do |salad| %>
 
 
-      <div class="row">
-        <div class="large-3 columns">...</div>
-        <div class="large-6 columns">...</div>
-        <div class="large-3 columns">...</div>
+
+
+      <ul>
+        <div class="small-6 large-2 columns"></div>
+        <div class="small-6 large-8 columns">
+          <b><%= salad.salad_name %></b> | Base: <%= salad.lettuce_type %><br>
+          Description:<em> <%= salad.description %></em><br>
+          <% if salad.cheese == true %>
+              cheese
+          <% end %></div>
+        <div class="small-12 large-2 columns"</div>
       </div>
 
 
 
-                  <b><%= salad.salad_name %></b> | Base: <%= salad.lettuce_type %><br>
-                  Description:<em> <%= salad.description %></em><br>
-                  <% if salad.cheese == true %>
-                  cheese
-                  <% end %>
-
   <% end %>
 
-
-<div class="row">
-  <div class="small-3 small-centered columns">3 centered</div>
-</div>
