@@ -4,12 +4,24 @@
 
 
 body {
-background:url("http://www.saladfoo.com/fu.jpg");
-  background-repeat:no-repeat;
+
+  //background: url("http://www.saladfoo.com/fu.jpg") no-repeat center center fixed;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+
+  background-image: url("http://www.saladfoo.com/bedge.png");
+  background-repeat: repeat;
+  //background-repeat: repeat-y;
+
+
+
+
 }
 
 .item-list {
-  width: 50%;
+  //width: 50%;
   opacity: 0.7;
 }
 
@@ -17,39 +29,10 @@ H2 {
   color: #000;
 }
 
+.static {
+  overflow: scroll;
+}
 
-//h1 {
-//  background-color: red;
-//  margin: 0 auto;
-//  width: 100%;
-//  padding: 0;
-//  text-align: center;
-//  font-size: 42px;
-//  font-family: Arial;
-//  text-transform: uppercase;
-//  color: black;
-//  opacity: 0.6;
-//  margin-top: 100px;
-//
-//
-//}
-//
-//#main_list {
-//  margin: 0 auto;
-//
-//  width: 80%;
-//  padding: 20px;
-//  opacity: 0.6;
-//  background-color: black;
-//  z-index: 1;
-//  font-family: Verdana;
-//  color: white;
-//  height: 500px;
-//  overflow: auto;
-//
-//}
-//
-//#main_list li {
-//  opacity: 1;
-//  z-index: 2;
-//  color: white;
+.size {
+  width: 50%;
+}

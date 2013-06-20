@@ -1,21 +1,25 @@
 
-<ul class="list">
+
   <% @salads.each do |salad| %>
-      <li>
-        <div class="panel item-list">
-          <b><%= salad.salad_name %></b> | Votes: <%= salad.votes %><br>
-          <em>Base: <%= salad.lettuce_type %></em><br>
-          Description:<em> <%= salad.description %></em><br>
-          <% if salad.cheese == true %>
-
-               cheese
-
-            <% end %>
-          </li>
 
 
-         </div>
-      </li>
+      <div class="row">
+        <div class="large-3 columns">...</div>
+        <div class="large-6 columns">...</div>
+        <div class="large-3 columns">...</div>
+      </div>
+
+
+
+                  <b><%= salad.salad_name %></b> | Base: <%= salad.lettuce_type %><br>
+                  Description:<em> <%= salad.description %></em><br>
+                  <% if salad.cheese == true %>
+                  cheese
+                  <% end %>
+
   <% end %>
-</ul>
 
+
+<div class="row">
+  <div class="small-3 small-centered columns">3 centered</div>
+</div>

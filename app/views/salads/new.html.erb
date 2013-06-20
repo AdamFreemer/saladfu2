@@ -16,11 +16,12 @@
 
 
       <%= form_for @salad do |f| %>
-          <fieldset>
-            <div class="row">
+
+            <div class="row">    <div class="large-1 columns"></div>
             <div class="large-4 columns">
-              <h4 class="subheader"><%= f.label :salad_name %></h4>
-            <%= f.text_field :salad_name %></div>
+            <%= f.label :salad_name %></h4>
+
+              <%= f.text_field :salad_name %></div>
             </div>
 
             <div class="row">
@@ -45,5 +46,5 @@
             <h2><%= f.submit %> | <%= link_to 'Cancel', root_path %></h2>
 
          <% end %>
-      </fieldset>
+
 
