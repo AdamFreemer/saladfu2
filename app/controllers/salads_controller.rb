@@ -1,4 +1,7 @@
 class SaladsController < ApplicationController
+
+  before_filter :authenticate_user! #, :except => [:show, :index]
+
   def index
     @salads = Salad.all
   end
@@ -8,7 +11,7 @@ class SaladsController < ApplicationController
   end
 
   def create
-    salad_params = params.require(:salad).permit(:salad_name, :description, :lettuce_type)
+    salad_params = params.require(:salad).permit(:salad_name, :description, :lettuce_type, :user_id, :user_name, :image)
     @salad = Salad.new(salad_params)
     if @salad.save
       redirect_to @salad
@@ -36,7 +39,7 @@ class SaladsController < ApplicationController
 
     @salad = Salad.find(params[:id])
 
-    if @salad.update(params[:salad].permit(:salad_name, :description, :lettuce_type))
+    if @salad.update(params[:salad].permit(:salad_name, :description, :lettuce_type, :user_id, :user_name, :image))
       redirect_to @salad
     else
       render 'edit'

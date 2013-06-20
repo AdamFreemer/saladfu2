@@ -1,17 +1,17 @@
 
-<ol>
+<ul class="list">
   <% @salads.each do |salad| %>
       <li>
-        <p><b><%= salad.salad_name %></b> | Votes: <%= salad.votes %><br>
+        <div class="panel item-list">
+          <b><%= salad.salad_name %></b> | Votes: <%= salad.votes %><br>
           <em>Base: <%= salad.lettuce_type %></em><br>
-          <em><%= salad.description %></em>
+          Description:<em> <%= salad.description %></em><br>
+          <%= image_tag salad.image_url %>
 
-
-
-           </p>
+         </div>
       </li>
   <% end %>
-</ol>
+</ul>
 
 <!-- 'number_field' for upvoting or downvoting
--->
+ -->

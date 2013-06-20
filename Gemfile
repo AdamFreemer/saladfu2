@@ -57,3 +57,6 @@ gem 'devise', git: "https://github.com/plataformatec/devise.git", branch: "rails
 # Add Foundation Here
 gem 'zurb-foundation', '~> 4.0.0'
 
+gem 'carrierwave'
+
+
