@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+
   has_many :salads
 
   # Include default devise modules. Others available are:

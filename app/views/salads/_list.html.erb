@@ -6,12 +6,16 @@
           <b><%= salad.salad_name %></b> | Votes: <%= salad.votes %><br>
           <em>Base: <%= salad.lettuce_type %></em><br>
           Description:<em> <%= salad.description %></em><br>
-          <%= image_tag salad.image_url %>
+          <% if salad.cheese == true %>
+
+               cheese
+
+            <% end %>
+          </li>
+
 
          </div>
       </li>
   <% end %>
 </ul>
 
-<!-- 'number_field' for upvoting or downvoting
- -->

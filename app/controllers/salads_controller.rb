@@ -8,10 +8,11 @@ class SaladsController < ApplicationController
 
   def new
     @salad = Salad.new
+
   end
 
   def create
-    salad_params = params.require(:salad).permit(:salad_name, :description, :lettuce_type, :user_id, :user_name, :image)
+    salad_params = params.require(:salad).permit(:salad_name, :description, :lettuce_type, :user_id, :user_name, :image, :cheese)
     @salad = Salad.new(salad_params)
     if @salad.save
       redirect_to @salad

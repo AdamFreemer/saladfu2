@@ -1,5 +1,8 @@
 class Salad < ActiveRecord::Base
 
+  belongs_to :users
+  has_many :toppingizations
+  has_many :salad_toppings, through: :toppingizations
 
   validates :salad_name, :lettuce_type, :description, presence: true
   validates :description, length: { minimum: 20 }
